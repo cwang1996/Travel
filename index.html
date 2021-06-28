@@ -9,6 +9,18 @@
     <title>Travel</title>
 </head>
 <body>
+    <div class='background'></div>
+
+    <div class='sidebar'>
+        <ul>
+            <li>Home</li>
+            <li>Things to Do</li>
+            <li>Plan Your Trip</li>
+            <li>Destinations</li>
+            <li>Articles</li>
+            <li>JNTO For Travel Professionals</li>
+        </ul>
+    </div>
     <div class='topnavbar'>
         <i class='fas fa-bars responsenav'></i>
         <ul>
@@ -41,34 +53,185 @@
         <div class='pictures'>
             <img src="https://res.cloudinary.com/jnto/image/upload/w_1640,h_1050,c_fill,f_auto,fl_lossy,q_auto/v1/media/filer_public/c1/ef/c1efe731-88d0-4667-9dae-dcba59ad6f27/img_covid_top_agalhe" alt='img1'>
             <div class='picturestext'>
-                <h3></h3>
+                <h3>Japan's Local Treasures</h3>
+                <p>Finding the hidden gems</p>
             </div>
         </div>
 
         <div class='pictures'>
             <img src="https://res-3.cloudinary.com/jnto/image/upload/w_1640,h_1050,c_fill,f_auto,fl_lossy,q_auto/v1/media/filer_public/b5/76/b576e92f-db3b-4c68-994d-2dff8febeb2b/sg084_3068_627_vcplei" alt='img2'>
             <div class='picturestext'>
-                <h3></h3>
+                <h3>Memories of the making</h3>
+                <p>Welcome to Japan!</p>
             </div>
         </div>
 
         <div class='pictures'>
             <img src="https://res-1.cloudinary.com/jnto/image/upload/w_1640,h_1050,c_fill,f_auto,fl_lossy,q_auto/v1/media/filer_public/e2/67/e267943f-9263-42f8-8a3e-0b94d9837523/tokyo2260_1_2_cmwkns" alt='img3'>
             <div class='picturestext'>
-                <h3></h3>
+                <h3>Beyond the clouds, there is always light</h3>
+                <p>Hope lights the way</p>
             </div>
         </div>
 
         <div class='pictures'>
             <img src="https://res-2.cloudinary.com/jnto/image/upload/w_1640,h_1050,c_fill,f_auto,fl_lossy,q_auto/v1513913351/yamagata/Yamagata2446_2" alt='img4'>
             <div class='picturestext'>
-                <h3></h3>
+                <h3>Things to Feel</h3>
+                <p>Experience all that Japan has to offer</p>
             </div>
         </div>
 
         <a class='prev' onclick='plusSlides(-1)'>&#10094;</a>
         <a class='next' onclick='plusSlides(1)'>&#10095;</a>
     </div>
+
+    <div class='tab'>
+        <button class='tablinks' onclick="openCity(event, 'Tokyo')">Tokyo</button>
+        <button class='tablinks' onclick="openCity(event, 'Osaka')">Osaka</button>
+        <button class='tablinks' onclick="openCity(event, 'Kyoto')">Kyoto</button>
+    </div>
+
+    <div id='Tokyo' class='tabcontent'>
+        <h3>As Japan’s capital and the world’s most populous metropolis, Tokyo offers tradition and innovation, and unlimited opportunities to eat, shop and explore</h3>
+        <p>Tokyo is located on Tokyo Bay in the Kanto region of Honshu, Japan’s largest island. The closest airport is Haneda officially known as Tokyo International Airport. Tokyo is known for its fashion and shopping, from the trendy shopping districts of Harajuku and Shibuya, to the luxury flagships of Ginza.
+
+            Shinjuku is the thriving business district; a mix of gleaming skyscrapers and atmospheric back streets with tiny bars. Asakusa is the heart of Tokyo’s downtown, with ancient temples and traditional stores. Tokyo is a foodie paradise with more Michelin-starred restaurants than any other city in the world, along with hundreds of cheap and delicious ramen shops.</p>
+    </div>
+
+    <div id='Osaka' class='tabcontent'>
+        <h3>Osaka is a charming, relaxed city best known for its food, fun and nightlife—with some history and culture peeking through</h3>
+        <p>Osaka is only a short shinkansen ride from Tokyo, but has a very different personality to Japan's capital city. Hop off the bullet train into an area of exciting nightlife, delicious food and straight-talking, friendly locals. Along with plenty of shopping and modern attractions, Osaka also has a historical side, the highlight of which is Osaka Castle. The castle is a great place to discover more about Japanese history and to wander the beautiful grounds, especially during cherry blossom season in April when the sakura blooms and the weather is often at its best.</p>
+    </div>
+
+    <div id='Kyoto' class='tabcontent'>
+        <h3>Kyoto is the former capital city of Japan and world-famous for its refined culture, dining, and charm of rural Japan</h3>
+        <p>Kyoto City attracts millions of local and international visitors each year looking for traditional Japanese culture. Temples and shrines such as Kiyomizudera Temple and Kinkakuji draw lots off attention from visitors, as do the bamboo groves of nearby Arashiyama. Stay in a traditional ryokan, take a dip in a rejuvenating onsen, and enjoy the seasonal changes of cherry blossoms and brilliant autumn foliage. Kyoto's magic is only a short bullet train ride from Tokyo. Beyond the city lie Kyoto Prefecture's many attractive rural areas. In the north, Amanohashidate has long been considered one of Japan's three most scenic places. Nestled in the mountains, Miyama is one of the last towns with thatched-roof farmhouses, many of which are still inhabited. Enjoy delicious local vegetables and the famous green tea grown in Uji.</p>
+    </div>
+
+    <div class='explore'>
+        <h2>Explore by Interest</h2>
+        <div class='grid'>
+            <div class='grid-item'>
+                <h3>Japan Attractions</h3>
+                <img src='https://res-2.cloudinary.com/jnto/image/upload/w_345,h_345,c_fill,f_auto,fl_lossy,q_auto/v1514407935/okinawa/Okinawa1953_1' alt='attractions'>
+            </div>
+
+            <div class='grid-item'>
+                <h3>Culture in Japan</h3>
+                <img src='https://res-1.cloudinary.com/jnto/image/upload/w_345,h_345,c_fill,f_auto,fl_lossy,q_auto/v1514197246/nagano/Nagano061_2' alt='attractions'>
+            </div>
+
+            <div class='grid-item'>
+                <h3>Relaxation in Japan</h3>
+                <img src='https://res-2.cloudinary.com/jnto/image/upload/w_345,h_345,c_fill,f_auto,fl_lossy,q_auto/v1514196022/nagano/Nagano106_2' alt='attractions'>
+            </div>
+
+            <div class='grid-item'>
+                <h3>Shopping in Japan</h3>
+                <img src='https://res-2.cloudinary.com/jnto/image/upload/w_345,h_345,c_fill,f_auto,fl_lossy,q_auto/v1513937406/tokyo/Tokyo2264_4' alt='attractions'>
+            </div>
+
+            <div class='grid-item'>
+                <h3>Adventure in Japan</h3>
+                <img src='https://res-4.cloudinary.com/jnto/image/upload/w_345,h_345,c_fill,f_auto,fl_lossy,q_auto/v1514220086/shizuoka/Shizuoka1871_4' alt='attractions'>
+            </div>
+
+            <div class='grid-item'>
+                <h3>Art & Design in Japan</h3>
+                <img src='https://res-3.cloudinary.com/jnto/image/upload/w_345,h_345,c_fill,f_auto,fl_lossy,q_auto/v1513933792/tokyo/Tokyo2251_2' alt='attractions'>
+            </div>
+
+            <div class='grid-item'>
+                <h3>History in Japan</h3>
+                <img src='https://res-3.cloudinary.com/jnto/image/upload/w_345,h_345,c_fill,f_auto,fl_lossy,q_auto/v1516730763/wakayama/Wakayama179_3'>
+            </div>
+
+            <div class='grid-item'>
+                <h3>Japanese Nature</h3>
+                <img src='https://res-2.cloudinary.com/jnto/image/upload/w_345,h_345,c_fill,f_auto,fl_lossy,q_auto/v1515928824/hokkaido/Hokkaido1453_1' alt='attractions'>
+            </div>
+
+            <div class='grid-item'>
+                <h3>Festivals & Events</h3>
+                <img src='https://res-3.cloudinary.com/jnto/image/upload/w_345,h_345,c_fill,f_auto,fl_lossy,q_auto/v1514373669/osaka/Osaka836_7' alt='attractions'>
+            </div>
+
+            <div class='grid-item'>
+                <h3>Food & Drink</h3>
+                <img src='https://res-4.cloudinary.com/jnto/image/upload/w_345,h_345,c_fill,f_auto,fl_lossy,q_auto/v1514398996/fukuoka/Fukuoka1613_6' alt='attractions'>
+            </div>
+
+            <div class='grid-item'>
+                <h3>Luxury</h3>
+                <img src='https://res-1.cloudinary.com/jnto/image/upload/w_345,h_345,c_fill,f_auto,fl_lossy,q_auto/v1553824615/japan_luxury_top_image_bq54n0' alt='attractions'>
+            </div>
+
+            <div class='grid-item'>
+                <h3>Snow Guide</h3>
+                <img src='https://res-1.cloudinary.com/jnto/image/upload/w_345,h_345,c_fill,f_auto,fl_lossy,q_auto/v1554302002/snow/snow_like_no_other' alt='attractions'>
+            </div>
+
+            <div class='grid-item'>
+                <h3>Diving Guide</h3>
+                <img src='https://res-2.cloudinary.com/jnto/image/upload/w_345,h_345,c_fill,f_auto,fl_lossy,q_auto/v585204391/24160647002_50445d565f_o_qizq75' alt='attractions'>
+            </div>
+
+            <div class='grid-item'>
+                <h3>National Parks</h3>
+                <img src='https://res-2.cloudinary.com/jnto/image/upload/w_345,h_345,c_fill,f_auto,fl_lossy,q_auto/v1576825210/media_national_parks/filer_public/5c/44/5c449157-15a4-49a3-9bb3-fd44f7423bd2/chubusangaku_kamikochi_484_nam8vv' alt='attractions'>
+            </div>
+
+            <div class='grid-item'>
+                <h3>Japan Heritage</h3>
+                <img src='https://res-2.cloudinary.com/jnto/image/upload/w_345,h_345,c_fill,f_auto,fl_lossy,q_auto/v1592460203/Japan_Heritage_tnmgl8'>
+            </div>
+
+            <div class='grid-item'>
+                <h3>Adventure</h3>
+                <img src='https://res-4.cloudinary.com/jnto/image/upload/w_345,h_345,c_fill,f_auto,fl_lossy,q_auto/v1599012955/AT_kv_njeclx' alt='attractions'>
+            </div>
+        </div>
+    </div>
+
+    <footer class='foot'>
+        <div class='links'>
+                <ul>
+                    <h3>Helpful Links</h3>
+                    <li>First-Time Visitors</li>
+                    <li>Accessibility</li>
+                    <li>Japan Free WiFi</li>
+                </ul>
+
+                <ul>
+                    <h3>Related JTNO Sites</h3>
+                    <li>Japan Convention Bureau</li>
+                    <li>Japan Online Media Center</li>
+                </ul>
+
+                <ul>
+                    <h3>About JNTO</h3>
+                    <li>Who We Are</li>
+                    <li>Contact Us</li>               
+                </ul>
+        </div>
+                <div class='footlinks'>
+                    <h3>JNTO</h3>
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li>Cookie Policy</li>
+                        <li>Terms of Use</li>
+                        <li>Links</li>
+                        <li>Sitemap</li>
+                    </ul>
+                    <div class='icons'>
+                        <i class='fab fa-facebook-f'></i>
+                        <i class='fab fa-instagram'></i>
+                        <i class='fab fa-youtube'></i>
+                    </div>
+                </div>
+        </div>
+    </footer>
     <script src='app.js'></script>
 </body>
 </html>
